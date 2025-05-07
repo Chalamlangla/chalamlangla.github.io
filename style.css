@@ -1,0 +1,52 @@
+body {
+    background-color: darkseagreen;
+    text-align: center;
+    font-family: verdana, sans-serif;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+div {
+    border: 3px double black;
+    border-collapse: collapse;
+    margin: 30px;
+}
+.arit_prog {
+    background-color: lightpink;
+}
+.sin_cos_tg {
+    background-color: LightGreen;
+}
+.figuras {
+    background-color: LightSkyBlue;
+}
+.savrupinajumi {
+    background-color: LightSteelBlue; 
+}
+.tiesa_runa {
+    background-color: lightcoral;
+}
+.teik_uzbuv {
+    background-color: lightgoldenrodyellow;
+}
+.conditionals {
+    background-color: lavender;
+}
+.mod_verb {
+    background-color: lemonchiffon;
+}
+.comp_noun {
+    background-color: lightcyan;
+}
+button {
+    background-color: mediumseagreen;
+    border: 2px solid seagreen;
+    padding: 15px;
+    font-size: 15px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mācību materiāli</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p><button onclick = "poga3()">Sākumlapa</button>
+  <h1>Matemātika</h1>
+  <div class = "arit_prog">
+    <h2>Aritmētiskā progresija</h2>
+    <table>
+      <tr>
+        <th><b>n-tā locekļa formula</b></th>
+        <th><b>Visu progresijas locekļu summa</b></th>
+      </tr>
+      <tr>
+        <td>a<sub>n</sub> = a<sub>1</sub> + (n - 1) * d</td>
+        <td>S<sub>n</sub> = ((a<sub>1</sub> + a<sub>n</sub>) * n) / 2</td>
+      </tr>
+      <tr>
+        <td colspan="2">n - loceklis progresijā<br>a<sub>1</sub> - progresijas 1. loceklis<br>d - diference</td>
+      </tr>
+    </table>
+  </div>
+  <div class = "sin_cos_tg">
+    <h2>Sinusi, konusi un tangensi</h2>
+    <table>
+      <tr>
+        <th><b></b></th>
+        <th><b>sin</b></th>
+        <th><b>cos</b></th>
+        <th><b>tg</b></th>
+      </tr>
+      <tr>
+        <th><b>30<sup>o</sup></b></th>
+        <td>1/2</td>
+        <td>√3/2</td>
+        <td>√3/3</td>
+      </tr>
+      <tr>
+        <th><b>45<sup>o</sup></b></th>
+        <td>√2/2</td>
+        <td>√2/2</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <th><b>60<sup>o</sup></b></th>
+        <td>√3/2</td>
+        <td>1/2</td>
+        <td>√3</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th colspan="3"><img src = "attēli/triangle_90.svg" style = width:400px; height: 400px;></th>
+      </tr>
+      <tr>
+        <th><b>sin ∢BAC</b></th>
+        <th><b>cos ∢BAC</b></th>
+        <th><b>tg ∢BAC</b></th>
+      </tr>
+      <tr>
+        <td>BC/AB</td>
+        <td>AC/AB</td>
+        <td>BC/AC</td>
+      </tr>
+    </table>
+  </div>
+  <div class = "figuras">
+    <h2>Ģeometriskas figūras, to formulas</h2>
+    <table>
+      <tr>
+        <th><b>Trijstūris</b></th>
+        <th><b>Taisnleņķa trijstūris</b></th>
+        <th><b>Riņķis</b></th>
+        <th><b>Kvadrāts</b></th>
+        <th><b>Paralelograms</b></th>
+        <th><b>Rombs</b></th>
+        <th><b>Trapece</b></th>
+      </tr>
+      <tr>
+        <td><img src = "attēli/Triangle.webp" style = width:200px; height: 200px;></td>
+        <td><img src = "attēli/triangle_90.svg" style = width:200px; height: 200px;></td>
+        <td><img src = "attēli/Circle.png" style = width:200px; height: 200px;></td>
+        <td><img src = "attēli/Square.png" style = width:200px; height: 200px;></td>
+        <td><img src = "attēli/paralelograms.svg" style = width:200px; height: 200px;></td>
+        <td><img src = "attēli/rombs.JPG" style = width:200px; height: 200px;></td>
+        <td><img src = "attēli/trapece.svg" style = width:200px; height: 200px;></td>
+      </tr>
+      <tr>
+        <td>S = 1/2 * a * h<sub>a</sub><br>S = 1/2 * ab * sin C</td>
+        <td>S = ab/2</td>
+        <td>C = 2πR<br>S = πR<sup>2</sup></td>
+        <td>S = ab</td>
+        <td>S = a * h<sub>a</sub><br>S = ab * sin α</td>
+        <td>S = 1/2 * d<sub>1</sub> * d<sub>2</sub></td>
+        <td>S = ((a+b) / 2) * h </td>
+      </tr>
+      <tr>
+        <td>S - trijstūra laukums<br>a, b - malas<br>sin C - leņķis starp malām a, b<br>h<sub>a</sub> - augstums pret malu a</td>
+        <td>S - trijstūra laukums<br>a, b - malas</td>
+        <td>C - riņķa līnija<br>R - riņķa rādiuss<br>S = riņķa laukums<br>π - pi</td>
+        <td>S - kvadrāta laukums<br>a, b - malas</td>
+        <td>S - paralelograma laukums<br>a, b - malas<br>α - leņķis starp malām a, b<br>h<sub>a</sub> - augstums pret malu a</td>
+        <td>S - romba laukums<br>d<sub>1</sub>, d<sub>2</sub> - romba diognāles</td>
+        <td>S - trapeces laukums<br>a, b - trapeces pamati<br>h - augstums</td>
+      </tr>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
